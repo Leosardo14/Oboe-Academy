@@ -3,128 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Oboe Academy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
+      font-family: Arial;
+      background: #0f172a;
       color: white;
+      text-align: center;
+    }
+
+    nav {
+      padding: 20px;
+      background: #020617;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
     }
 
     header {
-      text-align: center;
       padding: 100px 20px;
     }
 
-    h1 {
-      font-size: 3em;
-      margin: 0;
-    }
-
-    p {
-      opacity: 0.8;
-    }
-
     .btn {
-      display: inline-block;
-      margin-top: 30px;
       padding: 15px 30px;
       background: #5865F2;
+      border-radius: 10px;
       color: white;
       text-decoration: none;
-      border-radius: 12px;
-      font-size: 1.2em;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      transform: scale(1.05);
-      background: #4752c4;
-    }
-
-    section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    .card {
-      background: #1e293b;
-      padding: 30px;
-      border-radius: 15px;
-      width: 280px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    }
-
-    .price {
-      font-size: 2em;
-      margin: 10px 0;
-      color: #60a5fa;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      opacity: 0.6;
+      display: inline-block;
+      margin-top: 20px;
     }
   </style>
 </head>
 
 <body>
 
+<nav>
+  <a href="index.html">Home</a>
+  <a href="piani.html">Ruoli e Piani</a>
+</nav>
+
 <header>
   <h1>🎶 Oboe Academy</h1>
   <p>Impara l’oboe con lezioni live su Discord</p>
   <a class="btn" href="https://discord.gg/xUjM5WKD">Entra nel Server</a>
 </header>
-
-<section>
-  <h2>🎓 Lezioni Live</h2>
-  <p>Lunedì: Livello Avanzato (PRO)</p>
-  <p>Giovedì: Livello Base (Principianti)</p>
-  <p>Durata: 45–60 minuti</p>
-</section>
-
-<section>
-  <h2>💎 Piani</h2>
-
-  <div class="cards">
-
-    <div class="card">
-      <h3>Matricola</h3>
-      <p class="price">Gratis</p>
-      <p>Accesso alla community</p>
-      <p>Chat e aggiornamenti</p>
-    </div>
-
-    <div class="card">
-      <h3>Studente</h3>
-      <p class="price">7,99€/mese</p>
-      <p>Accesso a tutte le lezioni live</p>
-      <p>Canali esclusivi</p>
-      <p>Supporto diretto</p>
-    </div>
-
-  </div>
-</section>
-
-<section>
-  <h2>🚀 Diventa Studente</h2>
-  <p>Accedi alle lezioni live e migliora il tuo livello</p>
-  <a class="btn" href="#">Diventa Premium</a>
-</section>
-
-<footer>
-  © 2026 Oboe Academy
-</footer>
 
 </body>
 </html>
